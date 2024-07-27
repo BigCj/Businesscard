@@ -1,0 +1,134 @@
+.App {
+  width: 317px;
+  height: 780px;
+  margin: 0 auto;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #161619; /* Added background color for better visibility */
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 0%; /* Adjust as needed */
+}
+
+.image-container img {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover; /* Adjusted to fit the image properly */
+}
+
+.info {
+  width: 317px;
+  background: #1A1B21;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px; /* Added padding for inner content */
+}
+
+.text-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Space between text and buttons */
+}
+
+.heading {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.job {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #F3BF99;
+  margin: 5px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px; /* Space between buttons and about section */
+}
+
+.links button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.links .email-btn {
+  background-color: white;
+  color: black;
+}
+
+.links .linkedin-btn {
+  background-color: #0e76a8;
+  color: white;
+}
+
+.section {
+  width: 100%;
+align-items:  center;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.section .para1{
+  font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 15.36px;
+text-align: left;
+width: 247px;
+height: 61px;
+top: 561px;
+left: 152px;
+gap: 0px;
+opacity: 0px;
+
+}
+.section .para2{
+  width: 247px;
+height: 61px;
+top: 675px;
+left: 152px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 15.36px;
+text-align: left;
+}
+
+
+
+.footer {
+  width: 317px;
+  height: 64px;
+  border-radius: 0px 0px 10px 10px;
+  background: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.website{
+  color: #D1D5DB;
+}
