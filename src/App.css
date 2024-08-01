@@ -82,9 +82,9 @@
 
 .section {
   width: 100%;
-align-items:  center;
+  align-items:  center;
   color: #ffffff;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   margin-left: 20px;
 }
 .section .para1{
